@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trie.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--da-->
+    <div id="fun1">
+        <h3>Search My ClassMate Name </h3>
+        <input type="text" id="search" oninput="main()"> 
+        <div id="search_id">
+
+        </div>
+    </div>
+    <div id="fun2">
+        <h4>Insert your name if you are my ClassMate </h4>
+        <input type="text" id="in"> 
+        <button onclick="insert_new()">INSERT</button>
+        <span id="mess"></span>
+    </div>
+
+    <div id="list_box"></div>
+    <script src="trie.js"></script>
+</body>
+</html>

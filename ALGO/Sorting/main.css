@@ -1,0 +1,77 @@
+*
+{
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 1.2em;
+}
+
+body 
+{
+    width: 100%;
+    background-color: #2e3644;
+}
+
+#header
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 12vh;
+    width: 100%;
+    background-color: bisque;
+}
+
+#headerLeft
+{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1em;
+    border: 1px solid black;
+}
+
+#playground
+{
+    display: flex;
+    width: 99%;
+    min-width: 99%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 25px;
+}
+
+.bar 
+{
+    margin-right: 1px;
+    align-self: flex-end;
+    transition: 0.2s transform ease;
+    position: absolute;
+}
+  .barValue 
+  {
+    margin-right: 1px;
+    align-self: flex-end;
+    transition: 0.2s transform ease;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+  }
+
+#controller
+{ 
+    height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #d2b57a;
+}
+.controllerOperations
+{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

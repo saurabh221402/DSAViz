@@ -1,0 +1,93 @@
+# sorting terminology
+
+1. inplace sorting :  An in-place sorting algorithm uses constant space for producing the output (modifies the given array only). It sorts the list only 
+    by modifying the order of the elements within the list. Examples: Selection Sort, Bubble Sort Insertion Sort and Heap Sort.
+
+2. Internal Sorting: Internal Sorting is when all the data is placed in the main memory or internal memory. In internal sorting, the problem cannot take 
+    input beyond its size. Example: heap sort, bubble sort, selection sort, quick sort, shell sort, insertion sort.
+
+3. External Sorting : External Sorting is when all the data that needs to be sorted cannot be placed in memory at a time, the sorting is called external 
+    sorting. External Sorting is used for the massive amount of data. Examples: Merge sort, Tag sort, Polyphase sort, Four tape sort, External radix sort, 
+    etc.
+
+4. Stable sorting: When two same data appear in the same order in sorted data without changing their position is called stable sort. 
+    Examples: Merge Sort, Insertion Sort, Bubble Sort.
+
+5. Unstable sorting: When two same data appear in the different order in sorted data it is called unstable sort. 
+    Examples: Quick Sort, Heap Sort, Shell Sort.
+
+# chartestics of sorting algorithm
+
+1. time complexity
+2. space complexity
+
+# aplication of sorting 
+
+1. database management
+2. data analysis
+3. operating system (schedular algo)
+
+
+# type of sorting algorithm
+
+Selection Sort
+Bubble Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Counting Sort
+Radix Sort
+Bucket Sort
+
+Selction sort
+The algorithm repeatedly selects the smallest (or largest) element from the unsorted portion of the list and swaps it with the first element of the 
+unsorted part. This process is repeated for the remaining unsorted portion until the entire list is sorted. 
+
+T.C : O(n^2) in all case
+it is unstable sorting algorithm
+
+
+
+bubble sort
+comparasion based sorting 
+in-place
+stable
+T.C : O(n^2) wrost case , O(n) best case
+not for large dataset (internal sorting)
+
+insertion sort
+in-place
+stable
+T.C : O(n^2) wrost case , O(n) best case
+
+
+merge sort
+Merge sort is a sorting algorithm that follows the divide-and-conquer approach. It works by recursively dividing the input array into smaller
+ subarrays and sorting those subarrays then merging them back together to obtain the sorted array.
+
+Applications of Merge Sort:
+Sorting large datasets
+External sorting (when the dataset is too large to fit in memory)
+Inversion counting (counting the number of inversions in an array)
+Finding the median of an array
+
+Advantages of Merge Sort:
+Stability : Merge sort is a stable sorting algorithm, which means it maintains the relative order of equal elements in the input array.
+Guaranteed worst-case performance: Merge sort has a worst-case time complexity of O(N logN) , which means it performs well even on large datasets.
+Simple to implement: The divide-and-conquer approach is straightforward.
+
+Disadvantages of Merge Sort:
+Space complexity: Merge sort requires additional memory to store the merged sub-arrays during the sorting process.
+Not in-place: Merge sort is not an in-place sorting algorithm, which means it requires additional memory to store the sorted data.
+    This can be a disadvantage in applications where memory usage is a concern.
+
+
+
+quick sort
+QuickSort is a sorting algorithm based on the Divide and Conquer algorithm that picks an element as a pivot and partitions the given array around the 
+picked pivot by placing the pivot in its correct position in the sorted array.
+
+The key process in quickSort is a partition() . The target of partitions is to place the pivot (any element can be chosen to be a pivot) at its correct 
+position in the sorted array and put all smaller elements to the left of the pivot, and all greater elements to the right of the pivot.
+

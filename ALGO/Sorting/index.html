@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <!---->
+    <div id="header">
+        
+        <div id="headerLeft">
+            <div class="slider">
+                <input id="speedManager" type="range" value="100" min="25" max="300">
+                <div class="speedValue">Speed</div>
+            </div>
+            <div class="slider">
+                <input id="barsCount" type="range" value="30" min="25" max="50">
+                <div class="barCountValue">Bars: 50</div>
+            </div>
+            <button id="generateBars">Generate</button>
+        </div>
+
+        <a href='#'> <span id="project_title">Sorting Visualizer</span>  </a>
+
+        <div id="headerRight">
+            <select id="sort_type" name="sort_type">
+              <option value="insertion" selected>Insertion Sort</option>
+              <option value="bubble">Bubble Sort</option>
+              <option value="selection">Selection Sort</option>
+              <option value="merge">Merge Sort</option>
+              <option value="quick">Quick Sort</option>
+            </select>
+        </div>
+
+    </div>
+
+    <!--main work-space area-->
+    <div id="playground">
+
+    </div>
+
+    <!--operating area-->
+    <div id="controller">
+        <div class="controllerOperations">
+            <button id="startSorting">Sort</button>
+            <button id="pauseSorting">Pause</button>
+            <button id="resetSorting">Reset</button>
+        </div>
+    </div>
+
+
+    <!--script programming-->
+    <script src="sorting.js"></script>
+</body>
+</html>

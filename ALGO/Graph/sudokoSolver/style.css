@@ -1,0 +1,66 @@
+*
+{
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: beige;
+}
+
+#header
+{
+    display: flex;
+    font-size: 2em;
+    justify-content: center;
+}
+#mainFrame
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+}
+
+#board
+{
+    height: 1000px;
+    width: 1000px; 
+}
+
+#suduko
+{
+    height: 1000px;
+    width: 1000px;
+}
+
+#operator
+{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+}
+.but
+{
+    height:100px;
+    width:150px;
+    font-size: 1.3em;
+    font-weight: bolder;
+}
+
+
+.footer
+{
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px; 
+}
+#footer 
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center; /* Ensure content is centered */
+}

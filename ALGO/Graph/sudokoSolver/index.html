@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!--header section of page-->
+    <div id="header">
+        <h1>Suduko Solver</h1>
+    </div>
+
+    <!--WorkSpace Area-->
+    <div id="mainFrame">
+        <!--suduko box-->
+        <div id="board">
+            <table id="suduko"></table>
+        </div>
+        <!--Functionality to operate the solving process-->
+        <div id="operator">
+            <button class="but" id="clearBox">Clear</button>
+            <button class="but" id="randomFill">RandomlyFill</button>
+            <button class="but" id="solveBut">Solve</button>
+            <div id="speedR" class="but">
+                <input type="range" min="50" max="200" value="100" class="but" id="speedRegulator"> 
+                <div>Speed</div>
+            </div>
+            <button class="but" id="AlgoSelection">ALGO</button>
+        </div>
+    </div>
+
+    <!--footer section of page-->
+    <div id="footer">
+        <div class="footer"><i class="fa fa-envelope">sg072106@gmail.com</i>GLBIAN <i class="fa fa-whatsapp">6387148330</i></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
